@@ -62,6 +62,8 @@ plt.ylabel('log (Freqeuncy)')
 plt.title('Zipf\'s Law')
 plt.show()
 
+# Plotting comparison of various Neural Networks accuracies
+
 networks = ['Basic Neural Networks' 'CNN', 'Bi-Directional RNN', 'RNN', 'LSTM']
 accuracies = [63.48, 72, 80, 98]
 plt.figure(4, [8,6])
