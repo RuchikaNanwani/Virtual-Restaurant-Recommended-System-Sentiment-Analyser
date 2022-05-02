@@ -52,6 +52,8 @@ def home():
     #return 'Hello World'
     return render_template('home.html')
 
+# defining function predict by calling the saved json model
+
 @app.route('/predict',methods = ['POST'])
 def predict():
     global p
